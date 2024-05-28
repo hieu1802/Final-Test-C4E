@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    user-select: none;
+}
+
+
+.container{
+    position: relative;
+    width: 70%;
+    height: 800px;
+    border: 3px solid #000;
+    margin: auto;
+    margin-top: 3%;
+}
+
+.resultBauCua{
+    width: 45%;
+    height: 23%;
+    display: flex;
+    justify-content: space-between;
+    
+    margin: auto;
+    margin-top: 2%;
+}
+
+.boxResultBauCua{
+    width: 30%;
+    height: 100%;
+    border: 1px solid #000;
+    display: flex;
+    justify-content: center;
+   
+    
+}
+ 
+
+.btn{
+    width: 100px;
+    height: 50px;
+    font-size: 20px;
+    font-weight: 600;
+    background-color: rgb(32, 216, 155);
+    border-radius: 8px;
+    margin: 2% 20% 2% 80%;
+    cursor: pointer;
+  
+}
+
+.btn1{
+    width: 100px;
+    height: 50px;
+    font-size: 20px;
+    font-weight: 600;
+    background-color: rgba(52, 52, 52, 0.166);
+    border-radius: 8px;
+    margin: 2% 20% 2% 80%;
+    cursor: pointer;
+}
+
+.selectBauCua{
+    width: 80%;
+    height: 25%;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 8%;
+}
+
+.boxSelectBauCua{
+    width: 16%;
+    height: 100%;
+   border: 1px solid #000;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   cursor: pointer;
+
+}
+
+.boxSelectBauCua:hover{
+    background-color: beige;
+}
+.boxSelectBauCua img{
+    width: 70%;
+}
+
+span{
+    font-size: 25px;
+    margin-bottom: 75%;
+
+}
+
+.content{
+    position: absolute;
+    font-size: 32px;
+    font-weight: 600;
+    bottom: 14%;
+    left: 8%;
+}
